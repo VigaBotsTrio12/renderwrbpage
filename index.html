@@ -2,11 +2,66 @@
 <html>
 <head>
 	<title>Disclaimer</title>
+	<style>
+		body {
+			background-color: #444;
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 18px;
+			padding: 50px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 40px;
+			margin-bottom: 30px;
+			text-shadow: 3px 3px #666;
+		}
+		.disclaimer {
+			background-color: #eee;
+			border-radius: 10px;
+			box-shadow: 0px 0px 20px #666;
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 20px;
+			text-align: justify;
+			width: 90%;
+		}
+		.disclaimer p:first-child {
+			margin-top: 0;
+		}
+		.disclaimer p:last-child {
+			margin-bottom: 0;
+		}
+		.btn {
+			background-color: #ff6b6b;
+			border: none;
+			border-radius: 5px;
+			color: white;
+			cursor: pointer;
+			font-size: 24px;
+			margin-top: 20px;
+			padding: 10px 20px;
+			transition: all 0.3s ease;
+		}
+		.btn:hover {
+			background-color: #ff5050;
+		}
+	</style>
 </head>
 <body>
 	<h1>DISCLAIMER</h1>
-	<p>We're not owners of this content.</p>
-	<p>All the contents which you see here & which are posted here are already available on the internet.</p>
-	<p>We only do this for educational & entertainment things and we just make bots.</p>
+	<div class="disclaimer">
+		<p>We're not owners of this content.</p>
+		<p>All the contents which you see here & which are posted here are already available on the internet.</p>
+		<p>We only do this for educational & entertainment things and we just make bots.</p>
+	</div>
+	<button class="btn" onclick="alert('Thanks for reading our disclaimer!')">Read more</button>
+	<script>
+		const disclaimer = document.querySelector('.disclaimer');
+		disclaimer.addEventListener('click', () => {
+			disclaimer.style.background = '#ddd';
+			disclaimer.style.color = '#444';
+		});
+	</script>
 </body>
 </html>
