@@ -2,63 +2,58 @@
 <html>
 <head>
 	<title>Disclaimer</title>
-	<link rel="stylesheet" type="text/css" href="custom-style.css">
 	<style>
 		@font-face {
-			font-family: custom-font;
-			src: url(custom-fonts/Hello Sunday.ttf);
+		  font-family: 'Hello Sunday';
+		  src: url('custom-fonts/Hello Sunday.ttf') format('truetype');
 		}
+
 		@font-face {
-			font-family: custom-disclaimer-font;
-			src: url(custom-fonts/Cursed Parade.ttf);
+		  font-family: 'Cursed Parade';
+		  src: url('custom-fonts/Cursed Parade.ttf') format('truetype');
+		}
+
+		body {
+			font-family: 'Hello Sunday', sans-serif;
+			font-size: 16px;
+			color: #333;
+			line-height: 1.5;
+			text-align: center;
+			margin: 0;
+			padding: 0;
 		}
 		h1 {
-			font-family: custom-font;
-			font-size: 50px;
-			color: #ff7f50;
-			text-align: center;
-			margin-top: 50px;
+			font-size: 32px;
+			font-family: 'Cursed Parade', sans-serif;
+			margin-top: 40px;
+			margin-bottom: 20px;
 		}
 		p {
-			font-family: custom-disclaimer-font;
-			font-size: 20px;
-			color: #333;
-			text-align: justify;
-			margin: 30px;
-			line-height: 1.5;
+			margin-top: 20px;
+			margin-bottom: 20px;
 		}
-		footer {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			margin-top: 50px;
-		}
-		.telegram {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			margin-right: 10px;
-		}
-		.telegram img {
-			width: 30px;
-			height: 30px;
-		}
-		.telegram a {
-			font-family: custom-disclaimer-font;
-			font-size: 20px;
+		a {
+			font-family: 'Hello Sunday', sans-serif;
 			color: #333;
 			text-decoration: none;
+		}
+		button {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin-top: 20px;
+			cursor: pointer;
 		}
 	</style>
 </head>
 <body>
 	<h1>Disclaimer</h1>
 	<p>We do not own the content on this website. All content posted here is found on the internet. This site is for educational and entertainment purposes only. No guarantees or warranties are given regarding the accuracy, completeness or reliability of the information provided. Use at your own risk.</p>
-	<footer>
-		<div class="telegram">
-			<a href="https://t.me/link_leech" target="_blank">Join our Telegram channel</a>
-			<img src="telegram-logo.png" alt="Telegram Logo">
-		</div>
-	</footer>
+	<a href="https://t.me/link_leech"><button>Join my Telegram channel</button></a>
 </body>
 </html>
