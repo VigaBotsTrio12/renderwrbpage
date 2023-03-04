@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Disclaimer</title>
+	<style>
+		body {
+			background-color: #f0f0f0;
+			font-family: Arial, sans-serif;
+			color: #333333;
+			padding: 20px;
+		}
+
+		h1 {
+			font-size: 2.5em;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		p {
+			font-size: 1.2em;
+			line-height: 1.5;
+			text-align: justify;
+		}
+
+		.warning {
+			color: red;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1>Disclaimer</h1>
+	<p>We do not own the content on this website. All content posted here is found on the internet. This site is for educational and entertainment purposes only. No guarantees or warranties are given regarding the accuracy, completeness or reliability of the information provided. Use at your own risk.</p>
+	<p class="warning">WARNING: This website is not intended to provide professional or legal advice. Always seek the advice of a qualified professional for any questions you may have.</p>
+</body>
+</html>
